@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (Bảo mật API Key & MongoDB URI)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+*/dist/
+build/
+
+# Uploaded evidence & avatars (giữ lại thư mục rỗng)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
